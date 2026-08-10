@@ -1,0 +1,25 @@
+{
+  "business": "V Wine Salon",
+  "address": "Ground Floor, 673 Bourke St, Melbourne VIC 3000",
+  "checked_at": "2026-08-10",
+  "platforms": {
+    "google": {
+      "rating": 4.8,
+      "review_count": 242,
+      "notes": "Google Maps listing; count/rating sourced via web search snippet, not the Maps API (direct Maps access is blocked for this environment)."
+    },
+    "opentable": {
+      "url": "https://www.opentable.com/r/v-wine-salon-melbourne",
+      "rating": 4.9,
+      "review_count": 157,
+      "notes": "Category ratings seen: Food 4.8, Service 5.0, Ambience 4.8, Value 4.7."
+    },
+    "tripadvisor": {
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g255100-d22000069-Reviews-V_Wine_Salon-Melbourne_Victoria.html",
+      "rating": 5.0,
+      "review_count": 10,
+      "notes": "Ranked ~#729-741 of Melbourne restaurants on TripAdvisor."
+    }
+  },
+  "method_caveat": "Snapshot built via WebSearch (direct WebFetch/curl to google.com, opentable.com and tripadvisor.com is blocked by this environment's egress policy). Review counts/ratings can lag or vary slightly between search snippets. Individual review text/edits are not reliably diffable with this method."
+}
