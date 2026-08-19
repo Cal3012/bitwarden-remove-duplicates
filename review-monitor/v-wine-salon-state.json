@@ -1,0 +1,25 @@
+{
+  "business": "V Wine Salon",
+  "address": "Ground Floor, 673 Bourke St, Melbourne VIC 3000",
+  "checked_at": "2026-08-19T21:13Z",
+  "platforms": {
+    "google": {
+      "rating": 4.8,
+      "review_count": 251,
+      "notes": "Corrected from user's own live Google search (2026-08-17): 251 reviews, vs. 242 our WebSearch snippet was still reporting at the time. Google's search index appears to lag notably behind the live count for this listing — treat WebSearch-sourced Google numbers as potentially several reviews behind."
+    },
+    "opentable": {
+      "url": "https://www.opentable.com/r/v-wine-salon-melbourne",
+      "rating": 4.9,
+      "review_count": 169,
+      "notes": "Category ratings seen: Food 4.8, Service 5.0, Ambience 4.8, Value 4.7. Corrected 2026-08-17: user reported 169 (matching what WebSearch itself returned once re-queried), confirming this had likely been the real count since around 2026-08-11, when a 157-vs-169 conflict was seen and wrongly resolved in favor of 157. That was a missed-notification incident."
+    },
+    "tripadvisor": {
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g255100-d22000069-Reviews-V_Wine_Salon-Melbourne_Victoria.html",
+      "rating": 5.0,
+      "review_count": 10,
+      "notes": "Ranked ~#729-741 of Melbourne restaurants on TripAdvisor."
+    }
+  },
+  "method_caveat": "Snapshot built via WebSearch (direct WebFetch/curl to google.com, opentable.com and tripadvisor.com is blocked by this environment's egress policy). Review counts/ratings can lag or vary slightly between search snippets. Individual review text/edits are not reliably diffable with this method."
+}
